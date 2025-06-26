@@ -3,7 +3,7 @@
 A lightweight, responsive To-Do List app built using **HTML**, **CSS**, and **JavaScript** — no backend required. Tasks are saved locally in your browser using `localStorage`, making it a perfect offline productivity tool.
 
 🔗 **Live Demo:**  
-👉 [https://narottamkumar01.github.io/To_Do_List/]..https://narottamkumar01.github.io/To_Do_List/
+👉 [https://narottamkumar01.github.io/To_Do_List/]
 
 ## 🚀 Features
 
