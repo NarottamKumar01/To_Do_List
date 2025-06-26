@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea,#764ba2 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.todo-container{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    min-height: 30vh;
+    transition: transform 0.3s ease;
+}
+.todo-container:hover{
+    transform: scale(1.02);
+}
+h2{
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+.input-group{
+    display: flex;
+    gap: 10px;
+
+}
+input{
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+input:focus{
+    border: 2px solid #0ab39c;
+}
+.btn-add{
+    padding: 10px 15px;
+    border: none;
+    background: #0ab39c;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    opacity: 1;
+    transition: 'background' 0.4s;
+}
+button:hover{
+    opacity: 0.9;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0 , 0, 0.1) ;
+    transition: transform 0.4s;
+}
+li span{
+    cursor: default;
+}
+li:hover{
+    transform: translateX(5px);
+}
+.check-btn,
+.delete-btn{
+    background: none;
+    border: none;
+    font-size: 16PX;
+    cursor: pointer;
+    transition: color 0.4s;
+
+}
+.check-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.check-btn i {
+    pointer-events: none; 
+    font-size: 20px;
+}
+.delete-btn{
+    color: red;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
