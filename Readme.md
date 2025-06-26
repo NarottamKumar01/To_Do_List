@@ -25,5 +25,7 @@ A lightweight, responsive To-Do List app built using **HTML**, **CSS**, and **Ja
 
 To_Do_List/
 ├── index.html # Main UI and layout
+
 ├── style.css # Styles for layout and responsiveness
+
 └── script.js # JavaScript logic for interactivity and localStorage
